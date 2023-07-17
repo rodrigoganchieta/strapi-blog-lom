@@ -8,7 +8,6 @@ services:
     restart: always
     environment:
       POSTGRES_PASSWORD: senha
-      POSTGRES_DB: blog-strapi
       PGDATA: /var/lib/postgresql/data/pgdata
     volumes:
         - ~/.PostgressData/postgresonly/blog_strapi_api:/var/lib/postgresql/data/pgdata
